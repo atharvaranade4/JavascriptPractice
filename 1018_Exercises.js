@@ -22,8 +22,8 @@ const LARGE_PIZZA_COST = 19.99;
 let smallCostPerSquareInch = SMALL_PIZZA_COST/smallPizzaArea
 let largeCostPerSquareInch = LARGE_PIZZA_COST/smallPizzaArea
 
-console.log("Cost per square inch for small pizza = ", smallCostPerSquareInch.toFixed(2))
-console.log("Cost per square inch for large pizza = ", largeCostPerSquareInch.toFixed(2))
+console.log("Cost per square inch for small pizza = ", smallCostPerSquareInch)
+console.log("Cost per square inch for large pizza = ", largeCostPerSquareInch)
 
 
 // 3. Using the Math object, put together a code snippet
@@ -109,3 +109,6 @@ const endDate = new Date(2020, 4, 1)
 
 const middleDate = new Date((startDate.getTime() + endDate.getTime())/2)
 console.log("Middle Date = ", middleDate)
+
+
+
